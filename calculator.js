@@ -59,7 +59,7 @@ function tan(form) {
 
 function exp(form) {
 	form.display.value = Math.exp(form.display.value);
-}
+} 
 
 function compute(form) {
     //if (val !== 0.0) {
