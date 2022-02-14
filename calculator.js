@@ -62,12 +62,7 @@ function exp(form) {
 } 
 
 function compute(form) {
-    //if (val !== 0.0) {
-     // var percent = form.display.value;  
-     // percent = pcent.substring(percent.indexOf("%")+1);
-     // form.display.value = parseFloat(percent)/100 * val;
-      //val = 0.0;
-   // } else 
+  
       form.display.value = eval(form.display.value);
     }
   
